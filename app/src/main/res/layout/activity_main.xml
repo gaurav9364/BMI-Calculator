@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#00897B"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/llMain"
+    >
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/hint_wt"
+        android:inputType="number"
+        android:orientation="vertical"
+        android:background="@color/white"
+         />
+
+    <EditText
+        android:id="@+id/edtHeightF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/white"
+        android:hint="@string/hint_htF"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+         />
+
+    <EditText
+        android:id="@+id/edtHeightInches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@color/white"
+        android:hint="@string/hint_htI"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:backgroundTint="#3949AB"/>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="150dp"
+        android:layout_height="116dp"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textColor="#8E24AA" />
+
+</LinearLayout>
